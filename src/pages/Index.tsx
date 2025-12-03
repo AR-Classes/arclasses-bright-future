@@ -71,8 +71,8 @@ export default function Index() {
             <div className="relative animate-fade-in" style={{ animationDelay: "0.2s" }}>
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-card">
                 <img
-                  src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&auto=format&fit=crop&q=80"
-                  alt="Students studying in classroom"
+                  src="https://content.jdmagicbox.com/v2/comp/pune/r4/020pxx20.xx20.220930042403.s9r4/catalogue/a-r-classes-pune-tutorials-aaoqll2tn3.jpg"
+                  alt="A R Classes classroom with students studying"
                   className="w-full h-full object-cover"
                 />
               </div>
