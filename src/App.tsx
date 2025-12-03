@@ -20,7 +20,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/arclasses-bright-future">
         <Layout>
           <Routes>
             <Route path="/" element={<Index />} />
