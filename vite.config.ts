@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/arclasses-bright-future/",
+  base: mode === 'production' ? '/arclasses-bright-future/' : '/',
   server: {
     host: "::",
     port: 8080,
